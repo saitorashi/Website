@@ -15,8 +15,9 @@ nav ul li {
 }
 nav {
 position: absolute;
-top: 85px;
-left: 300px;
+top: 70px;
+left: 400px;
+font-size: 200%;
 }
 
 /*author name settings */
