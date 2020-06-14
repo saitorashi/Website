@@ -1,42 +1,50 @@
 body {
-    font-family: "Helvetica";
-    background-color: #000000;
-    color: #ffffff;
-    background-image: url("images/Adios-io-art.JPG");
-    background-repeat: no-repeat;
-      background-size: 416px 597px;
-      background-position: 25% 0%;
-   
-    
-  }
-  
-  nav ul li {
-    display:inline-block
-  }
-  
-  #author-name span {
-    color: #f09f05;
-  }
-  /* For the COMING SOON */
-#coming-soon {
-  position: absolute;
-  top: 150px;
-  left: 300px;
-}
-  /* General Button Settings */
-#coming-soon .cta {
-  border-radius: 20px;
+  font-family: "Helvetica";
+  background-color: #000000;
   color: #ffffff;
-  padding: 6px 16px;
-  text-decoration: none;
+  background-image: url("images/Adios-io-art.JPG");
+  background-repeat: no-repeat;
+    background-size: 416px 597px;
+    background-position: 25% 0%;
+ 
+  
 }
-  /* Join button here */
+
+nav ul li {
+  display:inline-block
+}
+/*author name settings */
+h1 {
+@font-face {
+font-family: square_sans_serif_7;
+src: url(../font/square_sans_serif_7.tff);
+}
+
+}
+#author-name span {
+  color: #f09f05;
+}
+/* For the COMING SOON position*/
+#coming-soon {
+position: absolute;
+top: 150px;
+left: 600px;
+
+}
+/* General Button Settings */
+#coming-soon .cta {
+border-radius: 20px;
+color: #ffffff;
+padding: 6px 16px;
+text-decoration: none;
+}
+/* Join button here */
 #coming-soon .primary {
-  background-color: #e4013a;
-  
-  
+background-color: #e4013a;
+
+
 }
- /* Shop button here */
+/* Shop button here */
 #coming-soon .secondary {
-  background-color: #4b26ff
+background-color: #4b26ff
 }
