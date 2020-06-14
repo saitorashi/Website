@@ -14,7 +14,10 @@ nav ul li {
   display:inline-block
 }
 /*author name settings */
-h1 {font-family: 'Nova Square', cursive;}
+h1 {
+font-family: 'Nova Square', cursive;
+font-size: 500%;
+}
 
 #author-name span {
   color: #f09f05;
@@ -25,6 +28,10 @@ position: absolute;
 top: 150px;
 left: 700px;
 
+}
+
+h2 {
+font-size: 350%;
 }
 /* General Button Settings */
 #coming-soon .cta {
