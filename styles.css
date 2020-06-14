@@ -10,20 +10,12 @@ body {
   
 }
 
-@font-face {
-font-family: square_sans_serif_7;
-src: url(../font/square_sans_serif_7.tff);
-}
-
 nav ul li {
   display:inline-block
 }
 /*author name settings */
-h1 {
-font-family: square_sans_serif_7;
-}
+h1 {font-family: 'Nova Square', cursive;}
 
-}
 #author-name span {
   color: #f09f05;
 }
