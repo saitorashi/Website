@@ -17,6 +17,12 @@ body {
   #author-name span {
     color: #f09f05;
   }
+  /* For the COMING SOON */
+#coming-soon {
+  position: static;
+  top: 300px;
+  right: 300px;
+}
   /* General Button Settings */
 #coming-soon .cta {
   border-radius: 20px;
