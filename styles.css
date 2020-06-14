@@ -9,10 +9,16 @@ body {
  
   
 }
-
+/* navigation settings */
 nav ul li {
   display:inline-block
 }
+nav {
+position: absolute;
+top: 85px;
+left: 300px;
+}
+
 /*author name settings */
 h1 {
 font-family: 'Nova Square', cursive;
