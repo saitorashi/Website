@@ -10,14 +10,17 @@ body {
   
 }
 
+@font-face {
+font-family: square_sans_serif_7;
+src: url(../font/square_sans_serif_7.tff);
+}
+
 nav ul li {
   display:inline-block
 }
 /*author name settings */
 h1 {
-@font-face {
 font-family: square_sans_serif_7;
-src: url(../font/square_sans_serif_7.tff);
 }
 
 }
@@ -28,7 +31,7 @@ src: url(../font/square_sans_serif_7.tff);
 #coming-soon {
 position: absolute;
 top: 150px;
-left: 600px;
+left: 700px;
 
 }
 /* General Button Settings */
