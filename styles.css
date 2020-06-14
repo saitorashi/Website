@@ -17,8 +17,9 @@ nav ul li {
 h1 {
 font-family: 'Nova Square', cursive;
 font-size: 500%;
-}
 
+
+}
 #author-name span {
   color: #f09f05;
 }
@@ -39,6 +40,8 @@ border-radius: 20px;
 color: #ffffff;
 padding: 6px 16px;
 text-decoration: none;
+position: relative;
+left: 95px;
 }
 /* Join button here */
 #coming-soon .primary {
