@@ -23,30 +23,31 @@ font-size: 150%;
 /*author name settings */
 h1 {
 font-family: 'Nova Square', cursive;
-font-size: 500%;
+font-size: 300%;
 position: absolute;
 top: -30px;
-
+left: 50px;
 
 }
 #last-name span {
   font-family: 'Nova Square', cursive;
-  font-size: 500%;
+  font-size: 350%;
   color: #f09f05;
   position: absolute;
-  top: 0px;
+  top: 5px;
+  left: 50px;
 }
 
 /* gold bar at the top */
 #gold_bar {
   position: absolute;
-  top: 110px;
+  top: 55px;
 }
 
 /* For the COMING SOON position*/
 #coming-soon {
 position: absolute;
-top: 150px;
+top: 0px;
 left: 700px;
 
 }
