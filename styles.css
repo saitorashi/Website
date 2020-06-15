@@ -29,9 +29,20 @@ top: -30px;
 
 
 }
-#author-name span {
+#last-name span {
+  font-family: 'Nova Square', cursive;
+  font-size: 500%;
   color: #f09f05;
+  position: absolute;
+  top: 0px;
 }
+
+/* gold bar at the top */
+#gold_bar {
+  position: absolute;
+  top: 110px;
+}
+
 /* For the COMING SOON position*/
 #coming-soon {
 position: absolute;
