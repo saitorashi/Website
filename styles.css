@@ -54,7 +54,7 @@ left: 700px;
 }
 
 h2 {
-font-size: 350%;
+font-size: 250%;
 }
 /* General Button Settings */
 #coming-soon .cta {
@@ -75,3 +75,10 @@ background-color: #e4013a;
 #coming-soon .secondary {
 background-color: #4b26ff
 }
+
+/* Social Media Icons */
+#social_media {
+position: absolute;
+bottom: 15px;
+}
+
