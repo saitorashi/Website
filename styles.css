@@ -34,14 +34,14 @@ left: 50px;
   font-size: 350%;
   color: #f09f05;
   position: absolute;
-  top: 5px;
+  top: 50px;
   left: 50px;
 }
 
 /* gold bar at the top */
 #gold_bar {
   position: absolute;
-  top: 55px;
+  top: 45px;
 
 }
 
