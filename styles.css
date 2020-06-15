@@ -15,7 +15,7 @@ nav ul li {
 }
 nav {
 position: absolute;
-top: 50px;
+top: 0px;
 left: 400px;
 font-size: 150%;
 }
@@ -42,12 +42,13 @@ left: 50px;
 #gold_bar {
   position: absolute;
   top: 55px;
+  size: 50%;
 }
 
 /* For the COMING SOON position*/
 #coming-soon {
 position: absolute;
-top: 0px;
+top: 40px;
 left: 700px;
 
 }
