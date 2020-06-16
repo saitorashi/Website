@@ -11,13 +11,31 @@ body {
 }
 /* navigation settings */
 nav ul li {
-  display:inline-block
+  display:inline;
+
 }
 nav {
 position: absolute;
 top: 0px;
 left: 400px;
 font-size: 150%;
+
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+  border-radius: 20px;
+  opacity: 0.5;
 }
 
 /*author name settings */
