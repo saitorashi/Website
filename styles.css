@@ -31,10 +31,12 @@ ul {
 li a {
   color: white;
   text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
+  padding: 6px;
   border-radius: 20px;
+  background: rgba(76, 76, 76, 0.2) ; 
+  
+}
+li a:hover { /* Makes nav links darken on hover*/
   opacity: 0.5;
 }
 
