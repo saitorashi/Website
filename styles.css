@@ -87,17 +87,15 @@ text-decoration: none;
 /* Join button here */
 #buttons .primary {
 background-color: #e4013a;
-position: absolute;
-  bottom: 18%;
+position: relative;
   right: 30%;
 
 }
 /* Shop button here */
 #buttons .secondary {
 background-color: #4b26ff;
-  position: absolute;
-  bottom: 18%;
-  right: 20%;
+  position: relative;
+  right: -60%;
 }
 
 /* Social Media Icons */
