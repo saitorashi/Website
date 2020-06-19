@@ -61,15 +61,19 @@ h2 {
    font-size: 200%;
 }
 
-/* For the Back-Text position*/
-#back-text {
-position: absolute;
-top: 100px;
-left: 700px;
-
+/* text block settings */
+.text-block {
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block p {
+  font-family: Times New Roman
 }
 /* General Button Settings */
-#back-text .cta {
+#buttons .cta {
 border-radius: 20px;
 color: #ffffff;
 padding: 6px 16px;
@@ -78,13 +82,13 @@ position: relative;
 left: 90px;
 }
 /* Join button here */
-#back-text .primary {
+#buttons .primary {
 background-color: #e4013a;
 
 
 }
 /* Shop button here */
-#back-text .secondary {
+#buttons .secondary {
 background-color: #4b26ff
 }
 
