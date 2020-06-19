@@ -69,10 +69,11 @@ h2 {
   bottom: 18%;
   padding: 30px;
   box-sizing: border-box;
-  font-size: 110%;
+
 }
 .container p {
-  font-family: Times New Roman
+  font-family: Times New Roman;
+  font-size: 110%;
 }
 
 /* General Button Settings */
@@ -95,7 +96,7 @@ position: relative;
 #buttons .secondary {
 background-color: #4b26ff;
   position: relative;
-  right: -60%;
+  right: -30%;
 }
 
 /* Social Media Icons */
