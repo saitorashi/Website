@@ -54,7 +54,7 @@ h1 span {
 /* Book Cover Settings */
 #book_cover {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 20%;
 }
 h2 {
@@ -65,14 +65,15 @@ h2 {
 .container {
   width: 292px;
   position: absolute;
-  right: 20%;
-  bottom: 10%;
+  right: 35%;
+  bottom: 25%;
   padding: 30px;
   box-sizing: border-box;
 }
 .container p {
   font-family: Times New Roman
 }
+
 /* General Button Settings */
 #buttons .cta {
 border-radius: 20px;
@@ -80,7 +81,9 @@ color: #ffffff;
 padding: 6px 16px;
 text-decoration: none;
 position: relative;
-left: 90px;
+bottom: 20%;
+right: 35%;
+  
 }
 /* Join button here */
 #buttons .primary {
