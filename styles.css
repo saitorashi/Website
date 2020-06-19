@@ -63,10 +63,10 @@ h2 {
 
 /* text block settings */
 .container {
-  width: 292px;
+  width: 300px;
   position: absolute;
   right: 25%;
-  top: 13%;
+  top: 18%;
   padding: 5px;
   box-sizing: border-box;
 
@@ -89,14 +89,14 @@ text-decoration: none;
 #buttons .primary {
 background-color: #e4013a;
 position: relative;
-  right: 10%;
+  right: 5%;
 
 }
 /* Shop button here */
 #buttons .secondary {
 background-color: #4b26ff;
   position: relative;
-  right: 5%;
+  right: 3%;
 }
 
 /* Social Media Icons */
