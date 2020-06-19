@@ -65,8 +65,8 @@ h2 {
 .container {
   width: 292px;
   position: absolute;
-  right: 35%;
-  bottom: 20%;
+  right: 25%;
+  bottom: 18%;
   padding: 30px;
   box-sizing: border-box;
 }
@@ -80,9 +80,9 @@ border-radius: 20px;
 color: #ffffff;
 padding: 6px 16px;
 text-decoration: none;
-position: absolute;
-bottom: 20%;
-right: 35%;
+position: relative;
+top: 325px;
+right: 25px;
   
 }
 /* Join button here */
