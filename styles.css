@@ -1,11 +1,11 @@
 body {
   font-family: "Helvetica";
-  background-color: #f9e4b7;
   color: #ffffff;
-  background-image: url("images/Valkyrie_Exile_Cover.jpg");
+  background-image: url("images/The_Well_Of_Fate.jpg");
   background-repeat: no-repeat;
-    background-size: 416px 597px;
-    background-position: 50% 0%;
+  height: 100%;
+    background-size: cover;
+    background-position: center;
  
   
 }
@@ -14,7 +14,7 @@ body {
 ul {
   list-style-type: none;
   overflow: hidden;
-  margin: -7px;
+  margin: -10px;
   padding: 0;
   background-color: #111;
 
@@ -43,18 +43,11 @@ font-family: 'Nova Square', cursive;
 font-size: 200%;
 position: absolute;
 left: 50px;
-  top: -10px;
+  top: -15px;
 
 }
 h1 span {
   color: #f09f05;
-}
-
-/* gold bar at the top */
-#gold_bar {
-  position: absolute;
-  top: 45px;
-
 }
 
 /* For the COMING SOON position*/
