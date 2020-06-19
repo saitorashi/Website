@@ -69,6 +69,7 @@ h2 {
   bottom: 18%;
   padding: 30px;
   box-sizing: border-box;
+  font-size: 110%;
 }
 .container p {
   font-family: Times New Roman
@@ -96,7 +97,7 @@ position: absolute;
 background-color: #4b26ff;
   position: absolute;
   bottom: 18%;
-  right: 10%;
+  right: 20%;
 }
 
 /* Social Media Icons */
