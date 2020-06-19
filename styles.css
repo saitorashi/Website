@@ -23,11 +23,12 @@ ul {
 }
 
 li {
-  float: none;
+  float: right;
+  display: inline-block;
 }
 
 li a {
-  display: inline-block;
+  display: block;
   color: white;
   text-align: center;
   text-decoration: none;
