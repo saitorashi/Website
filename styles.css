@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica";
-  background-color: #000000;
+  background-color: #f9e4b7;
   color: #ffffff;
   background-image: url("images/Valkyrie_Exile_Cover.jpg");
   background-repeat: no-repeat;
@@ -14,11 +14,9 @@ body {
 ul {
   list-style-type: none;
   overflow: hidden;
-  margin: 0;
+  margin: -7px;
   padding: 0;
   background-color: #111;
-  position: absolute;
-  top: -10px;
 
   
 }
