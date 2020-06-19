@@ -50,6 +50,13 @@ h1 span {
   color: #f09f05;
 }
 
+/* Book Cover Settings */
+coming-soon {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
 /* For the COMING SOON position*/
 #coming-soon {
 position: absolute;
