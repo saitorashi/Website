@@ -80,20 +80,23 @@ border-radius: 20px;
 color: #ffffff;
 padding: 6px 16px;
 text-decoration: none;
-position: relative;
-top: 325px;
-right: 25px;
+
   
 }
 /* Join button here */
 #buttons .primary {
 background-color: #e4013a;
-
+position: absolute;
+  bottom: 18%;
+  right: 30%;
 
 }
 /* Shop button here */
 #buttons .secondary {
-background-color: #4b26ff
+background-color: #4b26ff;
+  position: absolute;
+  bottom: 18%;
+  right: 10%;
 }
 
 /* Social Media Icons */
