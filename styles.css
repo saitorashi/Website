@@ -2,38 +2,35 @@ body {
   font-family: "Helvetica";
   background-color: #000000;
   color: #ffffff;
-  background-image: url("images/Adios-io-art.png");
+  background-image: url("images/Valkyrie_Exile_Cover.jpg");
   background-repeat: no-repeat;
     background-size: 416px 597px;
-    background-position: 25% 0%;
+    background-position: 50% 0%;
  
   
 }
 /* navigation settings */
-nav ul li {
-  display:inline;
-
-}
-nav {
-position: absolute;
-top: 0px;
-left: 400px;
-font-size: 150%;
-
-}
 
 ul {
   list-style-type: none;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+
   
 }
 
+li {
+  float: right;
+}
+
 li a {
+  display: block;
   color: white;
+  text-align: center;
   text-decoration: none;
-  padding: 6px;
-  border-radius: 20px;
-  background: rgba(76, 76, 76, 0.2) ; 
+  padding: 14px 16px; 
   
 }
 li a:hover { /* Makes nav links darken on hover*/
@@ -43,19 +40,13 @@ li a:hover { /* Makes nav links darken on hover*/
 /*author name settings */
 h1 {
 font-family: 'Nova Square', cursive;
-font-size: 300%;
+font-size: 150%;
 position: absolute;
-top: -30px;
 left: 50px;
 
 }
-#last-name span {
-  font-family: 'Nova Square', cursive;
-  font-size: 350%;
+h1 span {
   color: #f09f05;
-  position: absolute;
-  top: 50px;
-  left: 50px;
 }
 
 /* gold bar at the top */
