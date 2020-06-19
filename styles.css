@@ -66,8 +66,8 @@ h2 {
   width: 292px;
   position: absolute;
   right: 25%;
-  bottom: 18%;
-  padding: 30px;
+  top: 13%;
+  padding: 5px;
   box-sizing: border-box;
 
 }
@@ -89,14 +89,14 @@ text-decoration: none;
 #buttons .primary {
 background-color: #e4013a;
 position: relative;
-  right: 30%;
+  right: 10%;
 
 }
 /* Shop button here */
 #buttons .secondary {
 background-color: #4b26ff;
   position: relative;
-  right: -30%;
+  right: 5%;
 }
 
 /* Social Media Icons */
