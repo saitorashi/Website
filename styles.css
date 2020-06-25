@@ -11,14 +11,9 @@ body {
   
 }
 /* navigation settings */
-
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  margin: -10px;
-  padding: 10px;
-  background-color: #111;
-
+#author-name {
+ display: flex;
+  justify-content: center;
   
 }
 
@@ -43,10 +38,6 @@ li a:hover { /* Makes nav links darken on hover*/
 h1 {
 font-family: 'Nova Square', cursive;
 font-size: 200%;
-position: absolute;
-left: 50px;
-  top: -10px;
-
 }
 h1 span {
   color: #f09f05;
@@ -54,20 +45,17 @@ h1 span {
 
 /* Book Cover Settings */
 #book_cover {
-  position: absolute;
-  top: 5%;
-  left: 20%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
 }
-h2 {
-   font-size: 200%;
-}
+
 
 /* text block settings */
 .container {
   width: 300px;
-  position: absolute;
-  right: 25%;
-  top: 18%;
   padding: 5px;
   box-sizing: border-box;
 
@@ -90,19 +78,13 @@ text-decoration: none;
 #buttons .primary {
 background-color: #e4013a;
 position: relative;
-  right: 5%;
 
 }
 /* Shop button here */
 #buttons .secondary {
 background-color: #4b26ff;
   position: relative;
-  right: 3%;
 }
 
-/* Social Media Icons */
-#social_media {
-position: absolute;
-bottom: 15px;
-}
+
 
