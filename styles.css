@@ -68,6 +68,7 @@ h1 {
     display: block;
     text-align: right;
   }
+  
 }
 
 
@@ -87,6 +88,7 @@ h1 span {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 30px;
 }  
 @media screen and (min-width: 700px) {
   #book_cover img {
@@ -94,11 +96,17 @@ h1 span {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #book_cover img {
+    padding-bottom: 30px;
+  }
+}
+
 
 /* text block settings */
 .container {
   width: 300px;
-  padding: 5px;
+  padding: 5px 0px 0px 12px;
   box-sizing: border-box;
 
 }
@@ -109,11 +117,12 @@ h1 span {
 
 /* General Button Settings */
 #buttons .cta {
+  flex-wrap: wrap;
+  justify-content: space-around;
 border-radius: 20px;
 color: #ffffff;
 padding: 6px 16px;
 text-decoration: none;
-
   
 }
 /* Join button here */
@@ -126,7 +135,16 @@ position: relative;
 #buttons .secondary {
 background-color: #4b26ff;
   position: relative;
+  }
+
+@media screen and (max-width: 350px) {
+    #buttons .secondary{
+    top: 25px;
+    }
 }
-
-
-
+.available_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
