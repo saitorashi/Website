@@ -142,9 +142,4 @@ background-color: #4b26ff;
     top: 25px;
     }
 }
-.available_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+
