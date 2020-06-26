@@ -70,6 +70,8 @@ h1 {
     float: none;
     display: block;
     text-align: left;
+    font-style: inherit;
+    background: inherit;
   }
   
 }
