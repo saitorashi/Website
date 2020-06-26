@@ -67,7 +67,7 @@ h1 {
     top: 0;
   }
   .topnavresponsive a {
-    display: block;
+    display: flex;
     justify-content: right;
     color: white;
     background: #222;
