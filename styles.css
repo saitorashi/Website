@@ -147,10 +147,40 @@ background-color: #4b26ff;
     top: 25px;
     }
 }
-.available_container {
-    display: flex;
+
+/* Other Works settings */
+h3 {
+  text-align: center;
+}
+
+#other_works p {
+  text-align: center;
+}
+/*------Book covers in Other Works----------*/
+#other_works .covers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+@media screen and (max-width: 390px) {
+  #other_works .covers {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #222;
   }
+}
+
+/*'bottom content' settings*/
+.bottom_content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 540px) {
+  .bottom_content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
